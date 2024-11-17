@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply font-sans; /* Use Source Sans 3 as the default font for the entire app */
+}
+
+.bg-pad {
+	background-image: url('./assets/pad.jpg');
+}
+
+@media print {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	.quotation-table {
+		margin-top: 20mm;
+	}
+
+	.quotation-container {
+		width: '210mm' !important;
+		height: '297mm' !important;
+	}
+
+	/* Adjust background and layout */
+	.bg-pad {
+		background-size: cover !important;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
+	}
+
+	.footer-font {
+		font-size: 14px !important;
+	}
+
+	.header-font {
+		font-size: 14px !important;
+	}
+
+	.serise-font {
+		font-size: 16px !important;
+	}
+
+	/* Ensure fonts and layout consistency */
+	* {
+		font-size: 12px; /* Adjust font size for print */
+		@apply font-sans; /* Use Source Sans 3 as the default font for the entire app */
+	}
+}
+
+.quotation-container-web {
+	width: calc(80vh * (210 / 297));
+	height: 80vh;
+}

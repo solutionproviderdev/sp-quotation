@@ -1,0 +1,783 @@
+{
+	"title": "Cost Estimate for The Cabinet & Interior Works",
+	"customerDetails": {
+		"name": "",
+		"mobile": "",
+		"address": ""
+	},
+	"summary": {
+		"totalAmountForCabinets": "",
+		"carryingCost": 5500,
+		"totalAmount": "",
+		"remarks": "Details bill are enclosed"
+	},
+	"termsAndConditions": [
+		"60% payment to be made in advance along with the Work Order.",
+		"Rest 40% will be made after competition of 75% works.",
+		"All Payments need to be paid through A/C Payee Cheque, DD, Bank Transfer, or QR Pay in favor of Solution Provider.",
+		"5,500/- will be charged for product & materials carrying cost.",
+		"Offer validity: 5 days from the date mentioned.",
+		"VAT & AIT are not included.",
+		"Electrical works, ceiling lights, switch-sockets, walls & ceiling paints, floor cleaning are not included.",
+		"Granite for counter top, lights in cabinets, kitchen hood, kitchen hob is not included.",
+		"50% work will count when a visible structure of cabinets is completed.",
+		"75% work will count when a visible structure of cabinets is completed without fixing the front shutter.",
+		"95% work will count when a visible structure of cabinets is completed with fixing the front shutter & edge banding.",
+		"Warranty: One year for any manufacturing defect."
+	],
+	"cabinets": [
+		{
+			"series": "High-Gloss Finish Premium Cabinets",
+			"sections": [
+				{	
+					"title": "Kitchen Area",
+					"area": "Middle Part/Upper Part/Larder Unit",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "18 mm Hi-Gloss Malaysian Robina Brand MDF Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 2150,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Storage Cabinet/Open Shelve",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "18 mm Hi-Gloss Malaysian Robina Brand MDF Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 2050,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Lower & Upper Front Shutter Part",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body frame"
+								},
+								{
+									"material": "18 mm Hi-Gloss Malaysian Robina Brand MDF Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1750,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Full Height Cabinets Works (Other Areas)",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "18 mm Hi-Gloss Malaysian Robina Brand MDF Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 2250,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Dinner Wagon",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "18 mm Hi-Gloss Malaysian Robina Brand MDF Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 2150,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "TV/Media Unit Works",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "18 mm Hi-Gloss Malaysian Robina Brand MDF Board",
+									"description": "front surface"
+								},
+								{
+									"material": "6 mm Laminated Woodchips Board",
+									"description": "backside"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "front surface"
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": "front shutters"
+								},
+								{
+									"material": "Anodized Aluminium T-Bit",
+									"description": "main panel area"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutters of lower base unit"
+								},
+								{
+									"material": "Provision for LED Light",
+									"description": "main panel border area & lower base unit"
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1750,
+							"amount": "-"
+						}
+					]
+				}
+			]
+		},
+		{
+			"series": "Matte Finish Standard Cabinets",
+			"sections": [
+				{
+					"area": "Kitchen Area - Middle Part/Upper Part/Larder Unit",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium/1mm HQ Acrylic Edge Banding",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1750,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Storage Cabinet/Open Shelve",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1650,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Lower & Upper Front Shutter Part",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1150,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Full Height Cabinets Works (Other Areas)",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1950,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Dinner Wagon",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1950,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "TV/Media Unit Works",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front surface"
+								},
+								{
+									"material": "6 mm Laminated Woodchips Board",
+									"description": "backside"
+								},
+								{
+									"material": "Aluminium/0.5 mm PVC Edge banding Finish",
+									"description": "front surface"
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": "front shutters"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutters of lower base unit"
+								},
+								{
+									"material": "Provision for LED Light",
+									"description": "main panel border area & lower base unit"
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1750,
+							"amount": "-"
+						}
+					]
+				}
+			]
+		},
+		{
+			"series": "Matte Finish Economic Cabinets",
+			"sections": [
+				{
+					"area": "Kitchen Area - Middle Part/Upper Part/Larder Unit",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "Moldings with 0.5 mm PVC Edge Banding Strip",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1550,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Lower & Upper Front Shutter Part",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1050,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Storage Cabinet/Open Shelve",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1500,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Full Height Cabinets Works (Other Areas)",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1750,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "Dinner Wagon",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "front shutter"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "inside structural body & frame"
+								},
+								{
+									"material": "Earthquake-Proof Push Touch Latch Series",
+									"description": ""
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": ""
+								},
+								{
+									"material": "If the shelf is installed using glass, price increases by 100/- per SqFt",
+									"description": ""
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1750,
+							"amount": "-"
+						}
+					]
+				},
+				{
+					"area": "TV/Media Unit Works",
+					"parts": [
+						{
+							"items": [
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "structural body, partition, shelve & frame"
+								},
+								{
+									"material": "16 mm Laminated Woodchips Board",
+									"description": "front surface"
+								},
+								{
+									"material": "6 mm Laminated Woodchips Board",
+									"description": "backside"
+								},
+								{
+									"material": "0.5 mm PVC Edge banding Finish",
+									"description": "front surface"
+								},
+								{
+									"material": "Standard Hardware & Hinges",
+									"description": "front shutters"
+								},
+								{
+									"material": "Moldings with Anodized Aluminium Edge Banding",
+									"description": "front shutters of lower base unit"
+								},
+								{
+									"material": "Provision for LED Light",
+									"description": "main panel border area & lower base unit"
+								}
+							],
+							"quantity": "-",
+							"unit": "Sqft",
+							"ratePerSqFt": 1550,
+							"amount": "-"
+						}
+					]
+				}
+			]
+		}
+	],
+	"biFoldFoldingDoors": [
+		{
+			"series": "Bi-Fold Folding Door Works (18mm Gorjon Plywood Premium Series)",
+			"items": [
+				{
+					"description": "Bi-Fold Folding Door Works",
+					"materialDetails": [
+						"16 mm Laminated Woodchips Board (structural body & frame)",
+						"Premium Automotive Lacquer Paint (visible surface)",
+						"0.5 mm Clear Glass with Frosted Paper Design (folding door central panel)",
+						"Top Hung Tracked Door Roller (Nylon + Cold Rolled Steel) for Folding Doors",
+						"3 Way Cross Type System (100kg Load Capacity Per Door) for Folding Doors",
+						"Easy Moving with SS Heavy Duty Channel for Folding Doors"
+					],
+					"ratePerSqFt": 2250
+				}
+			]
+		}
+	]
+}
