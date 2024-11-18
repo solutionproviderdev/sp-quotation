@@ -150,7 +150,7 @@ const QuotationGeneratorPage = ({
 
 			<div className="overflow-x-auto scrollbar-thin">
 				<div className="flex space-x-4">
-					{formData.products.length > 0 &&
+					{formData?.products[0]?.selectedProduct !== '' &&
 						formData.products.map((product, index) => (
 							<div
 								key={index}
