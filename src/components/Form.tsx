@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import PrintButton from './PrintButton';
 
-interface Section {
-	area: string;
-	squareFootage: string;
-	amount: number; // Added to calculate amount
-}
+import { Section } from './data/database';
 
 interface Product {
 	selectedSeries: string;
@@ -28,7 +24,7 @@ interface FormProps {
 	calculateTotal: (updatedSections: Section[], productIndex: number) => void;
 	seriesOptions: string[];
 	productOptions: string[];
-	sections: any[];
+	sections: Section[];
 	componentRef: React.RefObject<HTMLDivElement>;
 }
 

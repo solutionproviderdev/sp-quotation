@@ -1,27 +1,23 @@
 import React, { RefObject } from 'react';
 import QuotationTable from './QuotationTable';
+import { Section } from './data/database';
 
-interface Item {
-	material: string;
-	description: string;
-}
+// interface Item {
+// 	material: string;
+// 	description: string;
+// }
 
-interface Part {
-	items: Item[];
-	quantity: string;
-	unit: string;
-	ratePerSqFt: number;
-	amount: string;
-}
-
-interface Section {
-	area: string;
-	parts: Part[];
-}
+// interface Part {
+// 	items: Item[];
+// 	quantity: string;
+// 	unit: string;
+// 	ratePerSqFt: number;
+// 	amount: string;
+// }
 
 interface QuotationData {
 	serise: string;
-	title: string;
+	selectedProduct: string;
 	sections: Section[];
 	totalAmount: string;
 }

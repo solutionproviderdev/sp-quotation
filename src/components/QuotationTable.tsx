@@ -1,29 +1,10 @@
 import React from 'react';
-
-interface Item {
-	material: string;
-	description: string;
-}
-
-interface Part {
-	items: Item[];
-	quantity: string;
-	unit: string;
-	ratePerSqFt: number;
-	amount: string;
-}
-
-interface Section {
-	area: string;
-	squareFootage: string;
-	amount: number;
-	parts: Part[];
-}
+import { Section } from './data/database';
 
 interface QuotationData {
-	selectedSeries: string;
+	serise: string;
 	selectedProduct: string;
-	total: number;
+	totalAmount: string;
 	sections: Section[];
 }
 
@@ -38,7 +19,7 @@ const QuotationTable: React.FC<QuotationTableProps> = ({ className, data }) => {
 			{/* Series Header */}
 			<header className="flex items-center justify-center mb-4">
 				<p className="serise-font tracking-wide p-2 font-bold text-base bg-blue-100 rounded-lg w-max">
-					{data.selectedSeries}
+					{data.serise}
 				</p>
 			</header>
 
@@ -116,7 +97,7 @@ const QuotationTable: React.FC<QuotationTableProps> = ({ className, data }) => {
 													{part.ratePerSqFt || '-'}
 												</td>
 												<td className="border border-gray-300 p-2 text-center">
-													{part.ratePerSqFt * section.squareFootage || '-'}
+													{section.amount || '-'}
 												</td>
 											</tr>
 										</React.Fragment>
@@ -129,7 +110,7 @@ const QuotationTable: React.FC<QuotationTableProps> = ({ className, data }) => {
 			{/* Footer */}
 			<div className="bg-green-100 p-2 mt-2 text-left font-bold text-[7px] w-80 rounded-sm ml-auto flex justify-between">
 				<p className="">TOTAL AMOUNT = </p>
-				<p className="">{data.total || ''}</p>
+				<p className="">{data.totalAmount || ''}</p>
 			</div>
 		</div>
 	);

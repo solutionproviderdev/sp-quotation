@@ -1,14 +1,14 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Form from '../components/Form';
 import Quotation from '../components/Quotation';
 import PrintableQuotation from '../components/PrintableQuotation';
 
-interface Section {
-	area: string;
-	squareFootage: string;
-	amount: number; // Added to calculate amount
-	parts: any[];
-}
+import { Section } from '../components/data/database';
+import { CabinetSeries } from '../components/data/database';
+
+// interface Part {
+// 	ratePerSqFt: number;
+// }
 
 interface Product {
 	selectedSeries: string;
@@ -24,7 +24,22 @@ interface Quotation {
 	products: Product[];
 }
 
-const QuotationGeneratorPage = ({ cabinets }: { cabinets: any[] }) => {
+// interface Cabinet {
+// 	series: string;
+// 	products: {
+// 		title: string;
+// 		sections: {
+// 			area: string;
+// 			parts: Part[];
+// 		}[];
+// 	}[];
+// }
+
+const QuotationGeneratorPage = ({
+	cabinets,
+}: {
+	cabinets: CabinetSeries[];
+}) => {
 	const [formData, setFormData] = useState<Quotation>({
 		customerName: '',
 		contact: '',
@@ -73,7 +88,6 @@ const QuotationGeneratorPage = ({ cabinets }: { cabinets: any[] }) => {
 
 	const calculateTotal = (updatedSections: Section[]) => {
 		const total = updatedSections.reduce((sum, section) => {
-			console.log(section);
 			return sum + (section.amount || 0); // Sum the calculated amounts
 		}, 0);
 
@@ -96,7 +110,7 @@ const QuotationGeneratorPage = ({ cabinets }: { cabinets: any[] }) => {
 					?.products.find(
 						product => product.title === currentProduct.selectedProduct
 					)
-					?.sections.map((section: any) => {
+					?.sections.map(section => {
 						const ratePerSqFt = section.parts[0]?.ratePerSqFt || 0;
 						return {
 							area: section.area,
@@ -116,23 +130,7 @@ const QuotationGeneratorPage = ({ cabinets }: { cabinets: any[] }) => {
 				return { ...prev, products: updatedProducts };
 			});
 		}
-	}, [currentProduct.selectedProduct]);
-
-	const updateSquareFootage = (index: number, squareFootage: string) => {
-		setFormData(prev => {
-			const updatedProducts = [...prev.products];
-			const lastProduct = updatedProducts[updatedProducts.length - 1];
-			const section = lastProduct.sections[index];
-
-			const amount = parseFloat(squareFootage) * section.ratePerSqFt || 0;
-
-			const updatedSection = { ...section, squareFootage, amount };
-			lastProduct.sections[index] = updatedSection;
-
-			calculateTotal(lastProduct.sections);
-			return { ...prev, products: updatedProducts };
-		});
-	};
+	}, [currentProduct.selectedProduct, cabinets, currentProduct.selectedSeries]);
 
 	return (
 		<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -146,7 +144,7 @@ const QuotationGeneratorPage = ({ cabinets }: { cabinets: any[] }) => {
 					productOptions={productOptions}
 					sections={sections}
 					componentRef={componentRef}
-					updateSquareFootage={updateSquareFootage}
+					// updateSquareFootage={updateSquareFootage}
 				/>
 			</div>
 
@@ -158,7 +156,15 @@ const QuotationGeneratorPage = ({ cabinets }: { cabinets: any[] }) => {
 								key={index}
 								className="bg-white p-4 shadow-md rounded-md min-w-[calc(80vh * (210 / 297))]"
 							>
-								<Quotation quotationData={product} />
+								<Quotation
+									quotationData={{
+										selectedProduct: product.selectedProduct,
+										serise: product.selectedSeries,
+										// title: product.selectedProduct,
+										totalAmount: product.total.toString(),
+										sections: product.sections,
+									}}
+								/>
 							</div>
 						))}
 				</div>
@@ -167,7 +173,12 @@ const QuotationGeneratorPage = ({ cabinets }: { cabinets: any[] }) => {
 			<div style={{ display: 'none' }}>
 				<PrintableQuotation
 					componentRef={componentRef}
-					quotationData={formData.products}
+					quotationData={formData.products.map(product => ({
+						serise: product.selectedSeries,
+						selectedProduct: product.selectedProduct,
+						totalAmount: product.total.toString(),
+						sections: product.sections,
+					}))}
 				/>
 			</div>
 		</div>

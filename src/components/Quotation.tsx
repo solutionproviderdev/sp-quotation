@@ -1,22 +1,11 @@
 import React from 'react';
 import QuotationTable from './QuotationTable';
+import { Section } from './data/database';
 
 interface QuotationData {
 	serise: string;
-	title: string;
-	sections: {
-		area: string;
-		parts: {
-			items: {
-				material: string;
-				description: string;
-			}[];
-			quantity: string;
-			unit: string;
-			ratePerSqFt: number;
-			amount: string;
-		}[];
-	}[];
+	selectedProduct: string;
+	sections: Section[];
 	totalAmount: string;
 }
 
@@ -25,7 +14,6 @@ interface QuotationProps {
 }
 
 const Quotation: React.FC<QuotationProps> = ({ quotationData }) => {
-	console.log(quotationData.sections);
 	return (
 		<div className="quotation-container-web bg-pad bg-cover bg-no-repeat mx-auto relative">
 			<div className="quotation-table pt-14">

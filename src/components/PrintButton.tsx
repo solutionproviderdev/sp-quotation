@@ -19,7 +19,10 @@ const PrintButton: React.FC<PrintButtonProps> = ({ componentRef }) => {
 	return (
 		<button
 			className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700"
-			onClick={handlePrint}
+			onClick={event => {
+				event.preventDefault();
+				handlePrint();
+			}}
 		>
 			Print Quotation
 		</button>

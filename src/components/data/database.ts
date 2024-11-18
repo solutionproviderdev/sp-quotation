@@ -5,16 +5,19 @@ export interface MaterialItem {
 }
 
 export interface Part {
-	items: MaterialItem[];
-	quantity: string;
-	unit: string;
-	ratePerSqFt: number;
-	amount: string;
+	items?: MaterialItem[];
+	quantity?: string;
+	unit?: string;
+	ratePerSqFt?: number;
+	amount?: string;
 }
 
 export interface Section {
-	area: string;
-	parts: Part[];
+	area?: string;
+	squareFootage?: string;
+	amount?: number;
+	parts?: Part[];
+	ratePerSqFt?: number;
 }
 
 export interface Product {
